@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fastest Runner Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🏃 Fastest Runner Finder</h1>
+
+<div class="controls">
+    <button onclick="generateRunners()">Generate</button>
+    <button onclick="startRace()">Start</button>
+    <button onclick="pauseResume()">Pause</button>
+
+    <label>Speed:</label>
+    <input type="range" min="10" max="200" value="60" id="speedSlider">
+</div>
+
+<p id="status">Click Generate to begin</p>
+<p id="comparisons">Comparisons: 0</p>
+
+<div id="container"></div>
+
+<h2 id="result"></h2>
+
+<button id="sortBtn" onclick="sortRunners()" style="display:none;">Sort All Runners</button>
+
+<script src="script.js"></script>
+</body>
+</html>

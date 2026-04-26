@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.controls {
+    margin: 15px;
+}
+
+.controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #00c6ff;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.controls button:hover {
+    background: #00e6ff;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    width: 70px;
+    height: 90px;
+    margin: 6px;
+    border-radius: 12px;
+    background: #1e1e2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card span {
+    font-size: 12px;
+}
+
+.speed {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.active {
+    background: #ff4d4d !important;
+    transform: scale(1.1);
+}
+
+.winner {
+    background: #00ff95 !important;
+}
+
+.sorted {
+    background: #ffd700 !important;
+}
+
+#sortBtn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
